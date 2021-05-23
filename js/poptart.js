@@ -7,7 +7,9 @@ var popTartQuiz = {
   smoresPoints: 0,
   brownSugarCinnamonPoints: 0,
   blueBerryPoints: 0,
-  popTartQuiz: function() {
+  quiz: function() {
+    view.firstQuestion();
+
 
   },
 
@@ -16,12 +18,12 @@ var popTartQuiz = {
 var handlers = {
   // the connection between stuff happening on the page and the logic and view
   toggleQuizStatus: function() {
-    quizStarted = !quizStarted
+    popTartQuiz.quizStarted = !popTartQuiz.quizStarted;
   },
   startQuiz: function() {
+    handlers.toggleQuizStatus();
     view.removeButton();
-    view.firstQuestion();
-    popTartQuiz.runQuiz();
+    popTartQuiz.quiz();
   }
 };
 
@@ -30,9 +32,10 @@ var view = {
   removeButton: function() {
     // remove the button that says start quiz
   },
-  firstQuestion: function() {
+  renderFirstQuestion: function() {
     // show first question
 
   },
 
 };
+
