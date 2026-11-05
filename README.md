@@ -16,4 +16,6 @@ All images are from Wikimedia Commons, resized to 960px wide.
 | `images/chocolate.jpg` | [The top of a Frosted Chocolate Fudge Pop-tart](https://commons.wikimedia.org/wiki/File:2023-10-30_08_17_19_The_top_of_a_Frosted_Chocolate_Fudge_Pop-tart_in_Westampton_Township,_Burlington_County,_New_Jersey.jpg) | Famartin | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | `images/brownsugar.jpg` | [Pop-Tart-Brown-Cin-Sugar.jpg](https://commons.wikimedia.org/wiki/File:Pop-Tart-Brown-Cin-Sugar.jpg) | Evan-Amos | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 
+`images/banner.jpg` is a collage made from the six photos above by `tools/make_banner.py`. Because it adapts CC BY-SA photos, the banner is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), crediting the same authors (Evan-Amos, Famartin).
+
 Pop-Tarts is a trademark of Kellanova. This is a fan project for fun and is not affiliated with or endorsed by Kellanova.
