@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>What Flavor Poptart are You?</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
 
   <body>
-    <div>
-      <img src='images/allpoptarts.jpg'>
+    <div class="welcome">
+      <div class="hero" aria-hidden="true">
+        <img src="images/strawberry.jpg" alt="">
+        <img src="images/blueberry.jpg" alt="">
+        <img src="images/cherry.jpg" alt="">
+        <img src="images/smores.jpg" alt="">
+        <img src="images/chocolate.jpg" alt="">
+        <img src="images/brownsugar.jpg" alt="">
+      </div>
+      <h1>Welcome to SJ's<br>What Flavor Poptart Are You<br>Quiz!</h1>
+      <div class="text-center">
+        <button class="start" onclick="handlers.startQuiz()">Start Quiz</button>
+      </div>
     </div>
-    <div>
-    
-      <h1>Welcome to SJ's </h1>
-      <h1>What Flavor Poptart Are You </h1>
-      <h1>Quiz!</h1>
-      
-    </div>
-    <div class='text-center'>
-      <button onclick="handlers.startQuiz()">Start Quiz</button>
-    </div>
-    <div class="quizContainer">
-      
-    </div>
+
+    <div class="quizContainer"></div>
+
+    <script src="js/poptart.js"></script>
   </body>
-
-
-
-
-
-
 </html>
